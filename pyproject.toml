@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "pjisp_diff"
-version = "0.1.0"
-description = ""
+version = "0.1.4"
+description = "PJISP diff check"
 authors = ["Jelena Dokic <jrubics@hacke.rs>"]
+license = "BSD-3-Clause"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^2.7"
 click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
