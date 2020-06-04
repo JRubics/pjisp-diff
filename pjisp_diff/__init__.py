@@ -49,7 +49,6 @@ def is_not_edited(template):
 @click.command()
 @click.argument('template')
 def diff(template):
-    print('a')
     exit_code = 0
     if is_edited(template):
         exit_code = 1
