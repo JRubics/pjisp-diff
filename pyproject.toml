@@ -14,3 +14,6 @@ click = "^7.1.2"
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+pjisp_diff = 'pjisp_diff:diff'
