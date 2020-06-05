@@ -50,10 +50,10 @@ def is_not_edited(template):
 @click.argument('template')
 def diff(template):
     exit_code = 0
-    if is_edited(template):
+    if not is_edited(template):
         exit_code = 1
 
-    if is_not_edited(template):
+    if not is_not_edited(template):
         exit_code = 1
 
     exit(exit_code)
