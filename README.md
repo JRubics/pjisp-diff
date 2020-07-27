@@ -8,7 +8,7 @@ Installation
 
 To install pjisp_diff run::
 
-    $ pip install pjisp_diff
+    $ pip install pjisp-diff
 
 Console app usage
 =================
