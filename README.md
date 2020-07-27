@@ -1,5 +1,3 @@
-# pjisp-diff
-
 About
 =====
 
